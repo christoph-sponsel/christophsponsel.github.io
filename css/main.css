@@ -176,12 +176,16 @@ body {
     padding: 30px 20px;
   }
 
-.sidebar ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
+  .sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+    list-style: none;   /* ✅ removes bullets */
+    padding: 0;         /* ✅ removes left indent */
+    margin: 0;          /* ✅ removes default spacing */
+  }
 
   .sidebar li {
     margin-bottom: 0;
